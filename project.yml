@@ -1,0 +1,44 @@
+name: SwiftFinetuneGemma2b
+options:
+  bundleIdPrefix: com.example
+targets:
+  SwiftFinetuneGemma2b:
+    type: tool
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - main.swift
+    resources:
+      - data
+    dependencies:
+      - package: mlx-swift
+        product: MLX
+      - package: mlx-swift
+        product: MLXNN
+      - package: mlx-swift
+        product: MLXOptimizers
+      - package: mlx-swift
+        product: MLXLLM
+      - package: swift-transformers
+        product: Transformers
+    info:
+      path: Info.plist
+    settings:
+      base:
+        PRODUCT_NAME: SwiftFinetuneGemma2b
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+packages:
+  mlx-swift:
+    url: https://github.com/ml-explore/mlx-swift
+    from: 0.1.0
+  swift-transformers:
+    url: https://github.com/huggingface/swift-transformers
+    branch: main
+schemes:
+  SwiftFinetuneGemma2b:
+    build:
+      targets:
+        SwiftFinetuneGemma2b: all
+    run:
+      workingDirectory: $PROJECT_DIR

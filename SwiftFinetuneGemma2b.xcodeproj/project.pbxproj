@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE4B084F728FC90FA37CA6E /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 608DAE0EA88D1E48DB01C5E8 /* MLXLLM */; };
+		494B9C1750B7E31F6553397E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D57FE563E0E571EB736AE5 /* main.swift */; };
+		8B1C8F2B51D68E92D1A81203 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = EC8C70F2D4EAD53841EE9C78 /* MLX */; };
+		9050D51D5FF59833F65ADD3A /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA80CD6C1F856E59B808C3C /* MLXNN */; };
+		CE6ABC3A28A49CF28EA629D8 /* Transformers in Frameworks */ = {isa = PBXBuildFile; productRef = A7D365F879273D484444AC36 /* Transformers */; };
+		D85FDECBF1C50838E1F0F3D6 /* MLXOptimizers in Frameworks */ = {isa = PBXBuildFile; productRef = D9FBF519C5C5714F624DD32E /* MLXOptimizers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57BF8ADC20B7C1EDA81823B1 /* SwiftFinetuneGemma2b */ = {isa = PBXFileReference; includeInIndex = 0; path = SwiftFinetuneGemma2b; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D57FE563E0E571EB736AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13406EF02936D91E3E981213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1C8F2B51D68E92D1A81203 /* MLX in Frameworks */,
+				9050D51D5FF59833F65ADD3A /* MLXNN in Frameworks */,
+				D85FDECBF1C50838E1F0F3D6 /* MLXOptimizers in Frameworks */,
+				2BE4B084F728FC90FA37CA6E /* MLXLLM in Frameworks */,
+				CE6ABC3A28A49CF28EA629D8 /* Transformers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6712A5751D2922107AD823A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BF8ADC20B7C1EDA81823B1 /* SwiftFinetuneGemma2b */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18CD9D2FBBE05E1E858DFA2 = {
+			isa = PBXGroup;
+			children = (
+				D9D57FE563E0E571EB736AE5 /* main.swift */,
+				B6712A5751D2922107AD823A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB472FAACA6010F3B38BC36 /* SwiftFinetuneGemma2b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762AD81C594B0D12BC7B0AA8 /* Build configuration list for PBXNativeTarget "SwiftFinetuneGemma2b" */;
+			buildPhases = (
+				54E3B1A0FFC1125A05FB2B5C /* Sources */,
+				13406EF02936D91E3E981213 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFinetuneGemma2b;
+			packageProductDependencies = (
+				EC8C70F2D4EAD53841EE9C78 /* MLX */,
+				5CA80CD6C1F856E59B808C3C /* MLXNN */,
+				D9FBF519C5C5714F624DD32E /* MLXOptimizers */,
+				608DAE0EA88D1E48DB01C5E8 /* MLXLLM */,
+				A7D365F879273D484444AC36 /* Transformers */,
+			);
+			productName = SwiftFinetuneGemma2b;
+			productReference = 57BF8ADC20B7C1EDA81823B1 /* SwiftFinetuneGemma2b */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3957D164942F8EEE554DADE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EDB472FAACA6010F3B38BC36 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 095B5EC07D6B5E8EA4A88665 /* Build configuration list for PBXProject "SwiftFinetuneGemma2b" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C18CD9D2FBBE05E1E858DFA2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				28C3C2E31BD0D4DC57835BC7 /* XCRemoteSwiftPackageReference "swift-transformers" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB472FAACA6010F3B38BC36 /* SwiftFinetuneGemma2b */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E3B1A0FFC1125A05FB2B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494B9C1750B7E31F6553397E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D5C786215B280D61608F17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftFinetuneGemma2b;
+				PRODUCT_NAME = SwiftFinetuneGemma2b;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B66C47E6B7305361EDC87DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		96ED735F8E69E897E41EFF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftFinetuneGemma2b;
+				PRODUCT_NAME = SwiftFinetuneGemma2b;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF3A2A76F75BB8D054BAA08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095B5EC07D6B5E8EA4A88665 /* Build configuration list for PBXProject "SwiftFinetuneGemma2b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B66C47E6B7305361EDC87DE /* Debug */,
+				BF3A2A76F75BB8D054BAA08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		762AD81C594B0D12BC7B0AA8 /* Build configuration list for PBXNativeTarget "SwiftFinetuneGemma2b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5C786215B280D61608F17D /* Debug */,
+				96ED735F8E69E897E41EFF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28C3C2E31BD0D4DC57835BC7 /* XCRemoteSwiftPackageReference "swift-transformers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huggingface/swift-transformers";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CA80CD6C1F856E59B808C3C /* MLXNN */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXNN;
+		};
+		608DAE0EA88D1E48DB01C5E8 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXLLM;
+		};
+		A7D365F879273D484444AC36 /* Transformers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28C3C2E31BD0D4DC57835BC7 /* XCRemoteSwiftPackageReference "swift-transformers" */;
+			productName = Transformers;
+		};
+		D9FBF519C5C5714F624DD32E /* MLXOptimizers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXOptimizers;
+		};
+		EC8C70F2D4EAD53841EE9C78 /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AC5C7EAD1B1367502421F2 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3957D164942F8EEE554DADE9 /* Project object */;
+}

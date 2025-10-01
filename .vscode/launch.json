@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_finetune_gemma2b}/SwiftFinetuneGemma2b",
+            "name": "Debug SwiftFinetuneGemma2b (SwiftFinetuneGemma2b)",
+            "program": "${workspaceFolder:swift_finetune_gemma2b}/SwiftFinetuneGemma2b/.build/debug/SwiftFinetuneGemma2b",
+            "preLaunchTask": "swift: Build Debug SwiftFinetuneGemma2b (SwiftFinetuneGemma2b)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_finetune_gemma2b}/SwiftFinetuneGemma2b",
+            "name": "Release SwiftFinetuneGemma2b (SwiftFinetuneGemma2b)",
+            "program": "${workspaceFolder:swift_finetune_gemma2b}/SwiftFinetuneGemma2b/.build/release/SwiftFinetuneGemma2b",
+            "preLaunchTask": "swift: Build Release SwiftFinetuneGemma2b (SwiftFinetuneGemma2b)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_finetune_gemma2b}",
+            "name": "Debug SwiftFinetuneGemma2b",
+            "program": "${workspaceFolder:swift_finetune_gemma2b}/.build/debug/SwiftFinetuneGemma2b",
+            "preLaunchTask": "swift: Build Debug SwiftFinetuneGemma2b"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_finetune_gemma2b}",
+            "name": "Release SwiftFinetuneGemma2b",
+            "program": "${workspaceFolder:swift_finetune_gemma2b}/.build/release/SwiftFinetuneGemma2b",
+            "preLaunchTask": "swift: Build Release SwiftFinetuneGemma2b"
+        }
+    ]
+}
