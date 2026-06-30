@@ -149,9 +149,9 @@ struct MainApp {
             batchSize: 1,
             learningRate: 1e-4 as Float,
             epochs: 3,
-            trainDataPath: "./data/train.jsonl",
-            valDataPath: "./data/valid.jsonl",
-            savePath: "./models/fine_tuned_adapter.safetensors"
+            trainDataPath: "../data/train.jsonl",
+            valDataPath: "../data/valid.jsonl",
+            savePath: "../models/fine_tuned_adapter.safetensors"
         )
         
         do {

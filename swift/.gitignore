@@ -1,0 +1,48 @@
+# Build results
+.build/
+.DS_Store
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcuserstate
+.xccheckout
+.xcodeproj/*.xcworkspacedata
+xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata/
+DerivedData
+build/
+
+# Swift Package Manager
+.swiftpm
+xcuserdata/
+
+# ML models and data
+models/
+*.mlx
+*.safetensors
+*.bin
+*.pth
+*.ckpt
+
+# Data
+data/*.jsonl.bak
+data/*.jsonl~
+
+# Logs
+*.log
+*.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

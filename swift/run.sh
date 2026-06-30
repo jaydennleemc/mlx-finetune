@@ -2,8 +2,8 @@
 
 # This script builds and runs the SwiftFinetuneGemma2b project using Swift Package Manager.
 
-# Navigate to the project directory
-cd "$(dirname "$0")/SwiftFinetuneGemma2b"
+# Use the swift directory as project root
+cd "$(dirname "$0")"
 
 echo "Building the project..."
 swift build

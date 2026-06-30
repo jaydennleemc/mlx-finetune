@@ -9,7 +9,7 @@ targets:
     sources:
       - main.swift
     resources:
-      - data
+      - ../data
     dependencies:
       - package: mlx-swift
         product: MLX
@@ -31,7 +31,7 @@ targets:
 packages:
   mlx-swift:
     url: https://github.com/ml-explore/mlx-swift
-    from: 0.1.0
+    from: 0.29.1
   swift-transformers:
     url: https://github.com/huggingface/swift-transformers
     branch: main
@@ -41,4 +41,4 @@ schemes:
       targets:
         SwiftFinetuneGemma2b: all
     run:
-      workingDirectory: $PROJECT_DIR
+      workingDirectory: $PROJECT_DIR/..
